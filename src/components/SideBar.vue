@@ -24,13 +24,13 @@
         class="top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar">
         <div
-            class="overflow-y-auto py-4 px-3 h-full bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+            class="h-full px-3 py-4 overflow-y-auto bg-white border-r border-gray-200 dark:bg-gray-800 dark:border-gray-700">
             <a
                 href="https://wvs-ffm.de"
                 class="flex items-center pl-2 mb-5">
                 <img
                     src="https://static.wixstatic.com/media/e10970_c893db61e5364168b73c7219eeb68f3a~mv2.png/v1/crop/x_0,y_20,w_180,h_130/fill/w_113,h_81,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/werner-von-siemens-schule_19358432_mw640.png"
-                    class="mr-3 h-6 sm:h-8"
+                    class="h-6 mr-3 sm:h-8"
                     alt="Flowbite Logo" />
                 <div class="flex flex-col">
                     <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
@@ -42,7 +42,7 @@
             <ul class="space-y-2">
                 <li>
                     <div
-                        class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 dark:text-white group bg-gray-100 dark:bg-gray-700">
+                        class="flex items-center p-2 text-base font-normal text-gray-900 transition duration-75 bg-gray-100 rounded-lg dark:text-white group dark:bg-gray-700">
                         <svg
                             aria-hidden="true"
                             class="flex-shrink-0 w-6 h-6 text-gray-400 transition duration-75 dark:text-gray-400"
@@ -58,12 +58,12 @@
             </ul>
             <div class="my-6 border-t border-gray-200 dark:border-gray-700"></div>
             <div class="mt-8">
-                <h3 class="px-3 mb-3 text-xs font-semibold text-gray-500 uppercase dark:text-gray-400">Information</h3>
+                <h3 class="px-3 mb-3 text-xs font-semibold text-gray-500 uppercase dark:text-gray-400">Informationen</h3>
                 <div
                     id="alert-update"
                     class="p-4 mb-3 rounded-lg bg-primary-50 dark:bg-primary-900"
                     role="alert">
-                    <div class="flex justify-between items-center mb-3">
+                    <div class="flex items-center justify-between mb-3">
                         <span class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
                             >Beta</span
                         >
