@@ -1,0 +1,2 @@
+     - `npm i` - From terminal in root directory.
+     - `npm run dev` - Start the development server.
