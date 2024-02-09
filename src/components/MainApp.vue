@@ -52,21 +52,29 @@
                         </svg>
                     </button>
                 </div>
-                <div class="flex justify-center gap-4 mt-4" v-if="imageUrl || processedImageUrl">
-                    <div class="w-auto border border-gray-500 rounded-lg h-96" v-if="imageUrl">
+                <div
+                    class="flex justify-center gap-4 mt-4"
+                    v-if="imageUrl || processedImageUrl">
+                    <div
+                        class="w-auto border border-gray-500 rounded-lg h-96"
+                        v-if="imageUrl">
                         <img
                             :src="imageUrl"
                             alt="Hochgeladenes Bild"
                             class="object-contain w-full h-full rounded-lg" />
                     </div>
-                    <div class="w-auto border border-gray-500 rounded-lg h-96" v-if="processedImageUrl">
+                    <div
+                        class="w-auto border border-gray-500 rounded-lg h-96"
+                        v-if="processedImageUrl">
                         <img
                             :src="processedImageUrl"
                             alt="Bearbeitetes Bild"
                             class="object-contain w-full h-full rounded-lg" />
                     </div>
                 </div>
-                <div v-else class="flex items-center justify-center w-full h-96">
+                <div
+                    v-else
+                    class="flex items-center justify-center w-full h-96">
                     <p class="text-gray-500 dark:text-gray-400">Sie haben noch kein Bild hochgeladen.</p>
                 </div>
                 <ProcessSpinner v-if="imageLoading || processedLoading" />

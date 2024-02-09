@@ -58,7 +58,9 @@
             </ul>
             <div class="my-6 border-t border-gray-200 dark:border-gray-700"></div>
             <div class="mt-8">
-                <h3 class="px-3 mb-3 text-xs font-semibold text-gray-500 uppercase dark:text-gray-400">Informationen</h3>
+                <h3 class="px-3 mb-3 text-xs font-semibold text-gray-500 uppercase dark:text-gray-400">
+                    Informationen
+                </h3>
                 <div
                     id="alert-update"
                     class="p-4 mb-3 rounded-lg bg-primary-50 dark:bg-primary-900"
